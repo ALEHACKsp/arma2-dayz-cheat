@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{52899b92-c65c-4fb1-bfab-57b7bc5b11c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook Library">
+      <UniqueIdentifier>{7a802f20-31cf-410d-a66c-417888f3f863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook Library\MinHook">
+      <UniqueIdentifier>{1b5800e9-2330-4228-a41e-fa928a7610fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\src\buffer.c">
+      <Filter>Hook Library\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\src\hook.c">
+      <Filter>Hook Library\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\src\trampoline.c">
+      <Filter>Hook Library\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\src\HDE\hde32.c">
+      <Filter>Hook Library\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Minhook\src\HDE\hde64.c">
+      <Filter>Hook Library\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncHook.cpp">
+      <Filter>Hook Library</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Minhook\src\buffer.h">
+      <Filter>Hook Library\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\trampoline.h">
+      <Filter>Hook Library\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\HDE\hde32.h">
+      <Filter>Hook Library\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\HDE\hde64.h">
+      <Filter>Hook Library\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\HDE\pstdint.h">
+      <Filter>Hook Library\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\HDE\table32.h">
+      <Filter>Hook Library\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\src\HDE\table64.h">
+      <Filter>Hook Library\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Minhook\include\MinHook.h">
+      <Filter>Hook Library\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Xor.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncHook.h">
+      <Filter>Hook Library</Filter>
+    </ClInclude>
+    <ClInclude Include="arma2.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
